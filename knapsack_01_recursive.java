@@ -7,7 +7,7 @@ public class knapsack_01_recursive {
         System.out.println(knapSack(wt, profit, capacity, wt.length));
     } 
     
-    private static int knapSack(int[] wt, int profit[], int capacity, int n) {
+    public static int knapSack(int[] wt, int profit[], int capacity, int n) {
         if (n == 0 || capacity == 0) return 0;
         if (wt[n-1] <= capacity) {
             return Math.max(
