@@ -8,6 +8,7 @@ public class knapsack_01_memoize {
         int n = wt.length;
         dp = new int[n+1][capacity+1];
         fill(dp, -1);
+        // we can use the 'tabulation' and 'recursive' method in this class, and we dont need to create the object of other class because they all are static method 
         System.out.println("Maximum Profit using Recursion : " + knapsack_01_recursive.knapSack(wt, profit, capacity, n));
         System.out.println("Maximum Profit ustin DP Memoization : " + memoize(wt, profit, capacity, n));
         System.out.println("Maximum profit using DP Tabulation : " + knapsack_01_tabulation.knapsackTabulation(wt, profit, capacity, n));
