@@ -8,9 +8,9 @@ public class knapsack_01_memoize {
         int n = wt.length;
         dp = new int[n+1][capacity+1];
         fill(dp, -1);
-        knapsack_01_recursive rc = new knapsack_01_recursive();
-        System.out.println("Maximum Profit using Recursion : " + rc.knapSack(wt, profit, capacity, n));
+        System.out.println("Maximum Profit using Recursion : " + knapsack_01_recursive.knapSack(wt, profit, capacity, n));
         System.out.println("Maximum Profit ustin DP Memoization : " + memoize(wt, profit, capacity, n));
+        System.out.println("Maximum profit using DP Tabulation : " + knapsack_01_tabulation.knapsackTabulation(wt, profit, capacity, n));
     }
 
     private static void fill(int[][] dp, int n) {
