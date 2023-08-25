@@ -14,3 +14,4 @@ Learn Dynamic Programming From Aditya Verma's Playlist in youtube
 # Variation of Unbounded Knapsack
     1. Unbounded Knapsack problem
     2. Rod cutting Problem
+    3. Coin changes problem 1
