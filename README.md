@@ -15,3 +15,4 @@ Learn Dynamic Programming From Aditya Verma's Playlist in youtube
     1. Unbounded Knapsack problem
     2. Rod cutting Problem
     3. Coin changes problem 1
+    4. Count minimum mumber of Coins requere in Coin changes problem
